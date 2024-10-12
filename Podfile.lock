@@ -1,0 +1,24 @@
+PODS:
+  - SQLCipher (4.6.1):
+    - SQLCipher/standard (= 4.6.1)
+  - SQLCipher/common (4.6.1)
+  - SQLCipher/standard (4.6.1):
+    - SQLCipher/common
+  - SQLite.swift/SQLCipher (0.15.3):
+    - SQLCipher (>= 4.0.0)
+
+DEPENDENCIES:
+  - SQLite.swift/SQLCipher
+
+SPEC REPOS:
+  trunk:
+    - SQLCipher
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  SQLCipher: 77fbe633cd84db04b07876dd50766b4924b57d61
+  SQLite.swift: 8d054987f02728cc912b0eb5a9659650573a65a2
+
+PODFILE CHECKSUM: fc2a214b7de84c0ac0540085ca3a3e95331f1142
+
+COCOAPODS: 1.15.2
